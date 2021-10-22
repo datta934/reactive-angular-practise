@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "angular-material-course": {
+    "angular-ngrx-course": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -58,18 +58,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "angular-material-course:build"
+            "browserTarget": "angular-ngrx-course:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "angular-material-course:build:production"
+              "browserTarget": "angular-ngrx-course:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "angular-material-course:build"
+            "browserTarget": "angular-ngrx-course:build"
           }
         },
         "test": {
@@ -103,7 +103,7 @@
         }
       }
     },
-    "angular-material-course-e2e": {
+    "angular-ngrx-course-e2e": {
       "root": "",
       "sourceRoot": "",
       "projectType": "application",
@@ -112,7 +112,7 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "./protractor.conf.js",
-            "devServerTarget": "angular-material-course:serve"
+            "devServerTarget": "angular-ngrx-course:serve"
           }
         },
         "lint": {
@@ -129,16 +129,18 @@
       }
     }
   },
-  "defaultProject": "angular-material-course",
+  "defaultProject": "angular-ngrx-course",
   "schematics": {
-    "@schematics/angular:component": {
-      "style": "scss"
+    "@ngrx/schematics:component": {
+      "prefix": "",
+      "styleext": "scss"
     },
-    "@schematics/angular:directive": {
+    "@ngrx/schematics:directive": {
       "prefix": ""
     }
   },
   "cli": {
-    "analytics": "3e2bbd4d-b51b-4bab-8828-77f66d8c5b0d"
+    "defaultCollection": "@ngrx/schematics",
+    "analytics": false
   }
 }

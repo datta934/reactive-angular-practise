@@ -1,31 +1,14 @@
+export const USERS = {
+  1: {
+    id: 1,
+    email: 'test@angular-university.io',
+    password: 'test'
+  }
+
+};
+
+
 export const COURSES: any = {
-
-
-  17: {
-    id: 17,
-    description: 'Reactive Angular Course',
-    longDescription: 'How to build Angular applications in Reactive style using plain RxJs - Patterns and Anti-Patterns',
-    iconUrl: 'https://angular-university.s3-us-west-1.amazonaws.com/course-images/reactive-angular-course.jpg',
-    courseListIcon: 'https://angular-academy.s3.amazonaws.com/main-logo/main-page-logo-small-hat.png',
-    category: 'BEGINNER',
-    lessonsCount: 10,
-    seqNo: 0,
-    url: 'reactive-angular-course',
-    price: 50
-
-  },
-  3: {
-    id: 3,
-    description: 'RxJs In Practice Course',
-    longDescription: 'Understand the RxJs Observable pattern, learn the RxJs Operators via practical examples',
-    iconUrl: 'https://s3-us-west-1.amazonaws.com/angular-university/course-images/rxjs-in-practice-course.png',
-    courseListIcon: 'https://angular-academy.s3.amazonaws.com/main-logo/main-page-logo-small-hat.png',
-    category: 'BEGINNER',
-    lessonsCount: 10,
-    seqNo: 2,
-    url: 'rxjs-course',
-    price: 50
-  },
 
   4: {
     id: 4,
@@ -34,12 +17,9 @@ export const COURSES: any = {
     iconUrl: 'https://angular-university.s3-us-west-1.amazonaws.com/course-images/ngrx-v2.png',
     category: 'BEGINNER',
     lessonsCount: 10,
-    seqNo: 1,
-    url: 'ngrx-course',
-    promo: false,
-    price: 50
+    seqNo: 0,
+    url: 'ngrx-course'
   },
-
 
   2: {
     id: 2,
@@ -48,39 +28,20 @@ export const COURSES: any = {
     iconUrl: 'https://s3-us-west-1.amazonaws.com/angular-university/course-images/angular-core-in-depth-small.png',
     lessonsCount: 10,
     category: 'BEGINNER',
-    seqNo: 3,
-    url: 'angular-core-course',
-    price: 50
+    seqNo: 1,
+    url: 'angular-core-course'
   },
 
-
-  5: {
-    id: 5,
-
-    description: 'Angular for Beginners',
-    longDescription: 'Establish a solid layer of fundamentals, learn what\'s under the hood of Angular',
-    iconUrl: 'https://angular-academy.s3.amazonaws.com/thumbnails/angular2-for-beginners-small-v2.png',
-    courseListIcon: 'https://angular-academy.s3.amazonaws.com/main-logo/main-page-logo-small-hat.png',
+  3: {
+    id: 3,
+    description: 'RxJs In Practice Course',
+    longDescription: 'Understand the RxJs Observable pattern, learn the RxJs Operators via practical examples',
+    iconUrl: 'https://s3-us-west-1.amazonaws.com/angular-university/course-images/rxjs-in-practice-course.png',
     category: 'BEGINNER',
     lessonsCount: 10,
-    seqNo: 4,
-    url: 'angular-for-beginners',
-    price: 50
+    seqNo: 2,
+    url: 'rxjs-course'
   },
-
-  12: {
-    id: 12,
-    description: 'Angular Testing Course',
-    longDescription: 'In-depth guide to Unit Testing and E2E Testing of Angular Applications',
-    iconUrl: 'https://s3-us-west-1.amazonaws.com/angular-university/course-images/angular-testing-small.png',
-    category: 'BEGINNER',
-    seqNo: 5,
-    url: 'angular-testing-course',
-    lessonsCount: 10,
-    promo: false,
-    price: 50
-  },
-
 
   1: {
     id: 1,
@@ -89,49 +50,46 @@ export const COURSES: any = {
     iconUrl: 'https://s3-us-west-1.amazonaws.com/angular-university/course-images/serverless-angular-small.png',
     lessonsCount: 10,
     category: 'BEGINNER',
+    seqNo: 4,
+    url: 'serverless-angular'
+  },
+
+  /*
+
+
+  5: {
+    id: 5,
+    description: 'Angular for Beginners',
+    longDescription: "Establish a solid layer of fundamentals, learn what's under the hood of Angular",
+    iconUrl: 'https://angular-academy.s3.amazonaws.com/thumbnails/angular2-for-beginners-small-v2.png',
+    category: 'BEGINNER',
+    lessonsCount: 10,
+    seqNo: 5,
+    url: 'angular-for-beginners'
+  },
+
+*/
+
+  12: {
+    id: 12,
+    description: 'Angular Testing Course',
+    longDescription: 'In-depth guide to Unit Testing and E2E Testing of Angular Applications',
+    iconUrl: 'https://s3-us-west-1.amazonaws.com/angular-university/course-images/angular-testing-small.png',
+    category: 'BEGINNER',
     seqNo: 6,
-    url: 'serverless-angular',
-    price: 50
-  },
-
-  16: {
-    id: 16,
-    description: 'Stripe Payments In Practice',
-    longDescription: 'Build your own ecommerce store & membership website with Firebase, Stripe and Express',
-    iconUrl: 'https://angular-university.s3-us-west-1.amazonaws.com/course-images/stripe-course.jpg',
+    url: 'angular-testing-course',
     lessonsCount: 10,
-    category: 'BEGINNER',
-    seqNo: 7,
-    url: 'stripe-course',
-    price: 50
   },
-
-
-  14: {
-    id: 14,
-    description: 'NestJs In Practice (with MongoDB)',
-    longDescription: 'Build a modern REST backend using Typescript, MongoDB and the familiar Angular API.',
-    iconUrl: 'https://angular-university.s3-us-west-1.amazonaws.com/course-images/nestjs-v2.png',
-    category: 'BEGINNER',
-    lessonsCount: 10,
-    seqNo: 8,
-    url: 'nestjs-course',
-    promo: false,
-    price: 50
-  },
-
 
   6: {
     id: 6,
     description: 'Angular Security Course - Web Security Fundamentals',
     longDescription: 'Learn Web Security Fundamentals and apply them to defend an Angular / Node Application from multiple types of attacks.',
     iconUrl: 'https://s3-us-west-1.amazonaws.com/angular-university/course-images/security-cover-small-v2.png',
-    courseListIcon: 'https://s3-us-west-1.amazonaws.com/angular-university/course-images/lock-v2.png',
     category: 'ADVANCED',
     lessonsCount: 11,
-    seqNo: 9,
-    url: 'angular-security-course',
-    price: 50
+    seqNo: 7,
+    url: 'angular-security-course'
   },
 
   7: {
@@ -139,12 +97,10 @@ export const COURSES: any = {
     description: 'Angular PWA - Progressive Web Apps Course',
     longDescription: 'Learn Angular Progressive Web Applications, build the future of the Web Today.',
     iconUrl: 'https://s3-us-west-1.amazonaws.com/angular-university/course-images/angular-pwa-course.png',
-    courseListIcon: 'https://s3-us-west-1.amazonaws.com/angular-university/course-images/alien.png',
     category: 'ADVANCED',
     lessonsCount: 8,
-    seqNo: 10,
-    url: 'angular-pwa-course',
-    price: 50
+    seqNo: 8,
+    url: 'angular-pwa-course'
   },
 
   8: {
@@ -152,11 +108,9 @@ export const COURSES: any = {
     description: 'Angular Advanced Library Laboratory: Build Your Own Library',
     longDescription: 'Learn Advanced Angular functionality typically used in Library Development. Advanced Components, Directives, Testing, Npm',
     iconUrl: 'https://angular-academy.s3.amazonaws.com/thumbnails/advanced_angular-small-v3.png',
-    courseListIcon: 'https://angular-academy.s3.amazonaws.com/thumbnails/angular-advanced-lesson-icon.png',
     category: 'ADVANCED',
-    seqNo: 11,
-    url: 'angular-advanced-course',
-    price: 50
+    seqNo: 9,
+    url: 'angular-advanced-course'
   },
 
   9: {
@@ -164,11 +118,19 @@ export const COURSES: any = {
     description: 'The Complete Typescript Course',
     longDescription: 'Complete Guide to Typescript From Scratch: Learn the language in-depth and use it to build a Node REST API.',
     iconUrl: 'https://angular-academy.s3.amazonaws.com/thumbnails/typescript-2-small.png',
-    courseListIcon: 'https://angular-academy.s3.amazonaws.com/thumbnails/typescript-2-lesson.png',
     category: 'BEGINNER',
-    seqNo: 12,
-    url: 'typescript-course',
-    price: 50
+    seqNo: 10,
+    url: 'typescript-course'
+  },
+
+  10: {
+    id: 10,
+    description: 'Rxjs and Reactive Patterns Angular Architecture Course',
+    longDescription: 'Learn the core RxJs Observable Pattern as well and many other Design Patterns for building Reactive Angular Applications.',
+    iconUrl: 'https://s3-us-west-1.amazonaws.com/angular-academy/blog/images/rxjs-reactive-patterns-small.png',
+    category: 'BEGINNER',
+    seqNo: 11,
+    url: 'rxjs-patterns-course'
   },
 
   11: {
@@ -177,12 +139,12 @@ export const COURSES: any = {
     longDescription: 'Build Applications with the official Angular Widget Library',
     iconUrl: 'https://s3-us-west-1.amazonaws.com/angular-university/course-images/material_design.png',
     category: 'BEGINNER',
-    seqNo: 14,
-    url: 'angular-material-course',
-    price: 50
+    seqNo: 12,
+    url: 'angular-material-course'
   }
 
 };
+
 
 export const LESSONS = {
 
@@ -485,7 +447,7 @@ export const LESSONS = {
   },
 
 
-// Angular Testing Course
+  // Angular Testing Course
 
   40: {
     id: 40,
@@ -571,317 +533,77 @@ export const LESSONS = {
   // Ngrx Course
   50: {
     id: 50,
-    'description': 'Welcome to the Angular Ngrx Course',
-    'duration': '6:53',
-    'seqNo': 1,
+    "description": "Welcome to the Angular Ngrx Course",
+    "duration": "6:53",
+    "seqNo": 1,
     courseId: 4
 
   },
   51: {
     id: 51,
-    'description': 'The Angular Ngrx Architecture Course - Helicopter View',
-    'duration': '5:52',
-    'seqNo': 2,
+    "description": "The Angular Ngrx Architecture Course - Helicopter View",
+    "duration": "5:52",
+    "seqNo": 2,
     courseId: 4
   },
   52: {
     id: 52,
-    'description': 'The Origins of Flux - Understanding the Famous Facebook Bug Problem',
-    'duration': '8:17',
-    'seqNo': 3,
+    "description": "The Origins of Flux - Understanding the Famous Facebook Bug Problem",
+    "duration": "8:17",
+    "seqNo": 3,
     courseId: 4
   },
   53: {
     id: 53,
-    'description': 'Custom Global Events - Why Don\'t They Scale In Complexity?',
-    'duration': '7:47',
-    'seqNo': 4,
+    "description": "Custom Global Events - Why Don't They Scale In Complexity?",
+    "duration": "7:47",
+    "seqNo": 4,
     courseId: 4
   },
   54: {
     id: 54,
-    'description': 'The Flux Architecture - How Does it Solve Facebook Counter Problem?',
-    'duration': '9:22',
-    'seqNo': 5,
+    "description": "The Flux Architecture - How Does it Solve Facebook Counter Problem?",
+    "duration": "9:22",
+    "seqNo": 5,
     courseId: 4
   },
   55: {
     id: 55,
-    'description': 'Unidirectional Data Flow And The Angular Development Mode',
-    'duration': '7:07',
-    'seqNo': 6,
+    "description": "Unidirectional Data Flow And The Angular Development Mode",
+    "duration": "7:07",
+    "seqNo": 6,
     courseId: 4
   },
 
   56: {
     id: 56,
-    'description': 'Dispatching an Action - Implementing the Login Component',
-    'duration': '4:39',
-    'seqNo': 7,
+    "description": "Dispatching an Action - Implementing the Login Component",
+    "duration": "4:39",
+    "seqNo": 7,
     courseId: 4
   },
   57: {
     id: 57,
-    'description': 'Setting Up the Ngrx DevTools - Demo',
-    'duration': '4:44',
-    'seqNo': 8,
+    "description": "Setting Up the Ngrx DevTools - Demo",
+    "duration": "4:44",
+    "seqNo": 8,
     courseId: 4
   },
   58: {
     id: 58,
-    'description': 'Understanding Reducers - Writing Our First Reducer',
-    'duration': '9:10',
-    'seqNo': 9,
+    "description": "Understanding Reducers - Writing Our First Reducer",
+    "duration": "9:10",
+    "seqNo": 9,
     courseId: 4
   },
   59: {
     id: 59,
-    'description': 'How To Define the Store Initial State',
-    'duration': '9:10',
-    'seqNo': 10,
+    "description": "How To Define the Store Initial State",
+    "duration": "9:10",
+    "seqNo": 10,
     courseId: 4
-  },
-
-  // NestJs Course
-
-  60: {
-    id: 60,
-    'description': 'Introduction to NestJs',
-    'duration': '4:29',
-    'seqNo': 1,
-    courseId: 14
-  },
-  61: {
-    id: 61,
-    'description': 'Development Environment Setup',
-    'duration': '6:37',
-    'seqNo': 2,
-    courseId: 14
-  },
-  62: {
-    id: 62,
-    'description': 'Setting up a MongoDB Database',
-    'duration': '6:38',
-    'seqNo': 3,
-    courseId: 14
-  },
-  63: {
-    id: 63,
-    'description': 'CRUD with NestJs - Controllers and Repositories',
-    'duration': '12:12',
-    'seqNo': 4,
-    courseId: 14
-  },
-  64: {
-    id: 64,
-    'description': 'First REST endpoint - Get All Courses',
-    'duration': '3:42',
-    'seqNo': 5,
-    courseId: 14
-  },
-  65: {
-    id: 65,
-    'description': 'Error Handling',
-    'duration': '5:15',
-    'seqNo': 6,
-    courseId: 14
-  },
-  66: {
-    id: 66,
-    'description': 'NestJs Middleware',
-    'duration': '7:08',
-    'seqNo': 7,
-    courseId: 14
-  },
-  67: {
-    id: 67,
-    'description': 'Authentication in NestJs',
-    'duration': '13:22',
-    'seqNo': 8,
-    courseId: 14
-  },
-  68: {
-    id: 68,
-    'description': 'Authorization in NestJs',
-    'duration': '6:43',
-    'seqNo': 9,
-    courseId: 14
-  },
-  69: {
-    id: 69,
-    'description': 'Guards & Interceptors',
-    'duration': '8:16',
-    'seqNo': 10,
-    courseId: 14
-  },
-
-  // Stripe Course
-
-  70: {
-    id: 70,
-    'description': 'Introduction to Stripe Payments',
-    'duration': '03:45',
-    'seqNo': 0,
-    courseId: 16
-  },
-  71: {
-    id: 71,
-    'description': 'The advantages of Stripe Checkout',
-    'duration': '08:36',
-    'seqNo': 1,
-    courseId: 16
-  },
-  72: {
-    id: 72,
-    'description': 'Setting up the development environment',
-    'duration': '09:10',
-    'seqNo': 2,
-    courseId: 16
-  },
-  73: {
-    id: 73,
-    'description': 'Creating a server Checkout Session',
-    'duration': '07:20',
-    'seqNo': 3,
-    courseId: 16
-  },
-  74: {
-    id: 74,
-    'description': 'Redirecting to the Stripe Checkout page',
-    'duration': '11:47',
-    'seqNo': 4,
-    courseId: 16
-  },
-  75: {
-    id: 75,
-    'description': 'Order fulfillment webhook',
-    'duration': '06:30',
-    'seqNo': 5,
-    courseId: 16
-  },
-  76: {
-    id: 76,
-    'description': 'Installing the Stripe CLI',
-    'duration': '4:13',
-    'seqNo': 6,
-    courseId: 16
-  },
-  77: {
-    id: 77,
-    'description': 'Firestore Security Rules for protecting Premium content',
-    'duration': '05:47',
-    'seqNo': 7,
-    courseId: 16
-  },
-  78: {
-    id: 78,
-    'description': 'Stripe Subscriptions with Stripe Checkout',
-    'duration': '05:17',
-    'seqNo': 8,
-    courseId: 16
-  },
-  79: {
-    id: 79,
-    'description': 'Stripe Subscription Fulfillment',
-    'duration': '07:50',
-    'seqNo': 9,
-    courseId: 16
-  },
-
-
-  // Reactive Angular Course
-
-  80: {
-    id: 80,
-    'description': 'Introduction to Reactive Programming',
-    'duration': '03:45',
-    'seqNo': 0,
-    courseId: 17,
-    videoId: 'Df1QnesgB_s',
-  },
-  81: {
-    id: 81,
-    'description': 'Introduction to RxJs',
-    'duration': '08:36',
-    'seqNo': 1,
-    courseId: 17,
-    videoId: '8m5RrAtqlyw',
-  },
-  82: {
-    id: 82,
-    'description': 'Setting up the development environment',
-    'duration': '09:10',
-    'seqNo': 2,
-    courseId: 17,
-    videoId: '3fDbUB-nKqc',
-  },
-  83: {
-    id: 83,
-    'description': 'Designing and building a Service Layer',
-    'duration': '07:20',
-    'seqNo': 3,
-    courseId: 17,
-    videoId: '',
-  },
-  84: {
-    id: 84,
-    'description': 'Stateless Observable Services',
-    'duration': '11:47',
-    'seqNo': 4,
-    courseId: 17,
-    videoId: 'qvDPnRs_ZPA',
-  },
-  85: {
-    id: 85,
-    'description': 'Smart vs Presentational Components',
-    'duration': '06:30',
-    'seqNo': 5,
-    courseId: 17,
-    videoId: '5bsZJGAelFM',
-  },
-  86: {
-    id: 86,
-    'description': 'Lightweight state management',
-    'duration': '4:13',
-    'seqNo': 6,
-    courseId: 17,
-    videoId: '9m3_HHeP9Ko',
-  },
-  87: {
-    id: 87,
-    'description': 'Event bubbling anti-pattern',
-    'duration': '05:47',
-    'seqNo': 7,
-    courseId: 17,
-    videoId: 'PRQCAL_RMVo',
-  },
-  88: {
-    id: 88,
-    'description': 'Master detail with cached master table',
-    'duration': '05:17',
-    'seqNo': 8,
-    courseId: 17,
-    videoId: 'du4ib4jBUG0'
-  },
-  89: {
-    id: 89,
-    'description': 'Error handling',
-    'duration': '07:50',
-    'seqNo': 9,
-    courseId: 17,
-    videoId: '8m5RrAtqlyw'
   }
 
-};
-
-
-export const USERS = {
-  1: {
-    id: 1,
-    email: 'test@angular-university.io',
-    password: 'test',
-    pictureUrl: 'https://lh3.googleusercontent.com/-1pUNnTB3vaA/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rdn4uEc0ti8YE4Uuw6_Kz04tVe2Mg.CMID/s32-c/photo.jpg'
-  }
 
 };
 
@@ -893,6 +615,7 @@ export function findCourseById(courseId: number) {
 export function findLessonsForCourse(courseId: number) {
   return Object.values(LESSONS).filter(lesson => lesson.courseId == courseId);
 }
+
 
 export function authenticate(email: string, password: string) {
 

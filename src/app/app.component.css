@@ -7,19 +7,18 @@ main {
     margin: 30px;
 }
 
-.user-avatar {
-  max-height: 35px;
-  border-radius: 4px;
-
+.menu-button {
+    background: rgba(255, 170, 0, 0.76);
+    color: white;
+    border: none;
+    cursor:pointer;
+    outline:none;
 }
 
-.toolbar-tools {
-  display: flex;
+
+.spinner-container {
   width: 100%;
+  margin-top: 100px;
 }
 
 
-.filler {
-  flex: 1 1 auto;
-  width: 100%;
-}
